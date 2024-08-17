@@ -1,0 +1,33 @@
+:root {
+	--color-primary: #282828;
+	--color-primary-light: #9d9d9d;
+
+	--color-secondary: #f4f4f4;
+	--color-secondary-light: #ffffff;
+	--color-secondary-dark: #cccccc;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul,
+li,
+ol {
+	list-style-type: none;
+}

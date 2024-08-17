@@ -5,7 +5,6 @@ import './globals.css'
 const montserratAlternates = Montserrat_Alternates({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'],
-  variable: '--font-montserrat-alternates',
 })
 
 export default function RootLayout({
