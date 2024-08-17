@@ -1,5 +1,5 @@
-import { UpcomingTransaction } from '@/views/upcoming-transaction'
+import { UpcomingTransaction as Page } from '@/views/upcoming-transaction'
 
-export default function UpcomingTransactionPage() {
-  return <UpcomingTransaction />
+export default function UpcomingTransaction() {
+	return <Page />
 }

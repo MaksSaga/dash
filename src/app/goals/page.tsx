@@ -1,5 +1,5 @@
-import { Goals } from '@/views/goals'
+import { Goals as Page } from '@/views/goals'
 
-export default function GoalPage() {
-  return <Goals />
+export default function Goals() {
+	return <Page />
 }

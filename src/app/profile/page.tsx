@@ -1,5 +1,5 @@
-import { Profile } from '@/views/profile'
+import { Profile as Page } from '@/views/profile'
 
-export default function ProfilePage() {
-  return <Profile />
+export default function Profile() {
+	return <Page />
 }

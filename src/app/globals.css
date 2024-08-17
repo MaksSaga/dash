@@ -16,14 +16,13 @@
 body {
 	margin: 0;
 	padding: 0;
+	color: var(--color-primary);
+	background-color: var(--color-secondary);
 }
 
 a {
 	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
+	color: var(--color-primary-light);
 }
 
 ul,

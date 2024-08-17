@@ -1,0 +1,16 @@
+.list {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.list__link {
+	color: var(--color-primary-light);
+	text-transform: capitalize;
+	font-size: 18px;
+	transition: 0.02s ease-in;
+}
+
+.list__link:hover {
+	color: var(--color-primary);
+}

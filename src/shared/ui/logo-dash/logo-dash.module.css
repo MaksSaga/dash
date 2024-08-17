@@ -1,0 +1,26 @@
+.link {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	text-decoration: none;
+}
+
+.img {
+	transition: 0.2s ease-in-out;
+	transition-delay: 0.05s;
+}
+
+.link:hover > .img {
+	transform: rotate(-90deg);
+}
+
+.title {
+	transition: 0.2s ease-in-out;
+	transition-delay: 0.05s;
+	color: var(--color-primary);
+	font-size: 26px;
+}
+
+.link:hover > .title {
+	transform: translateX(4px);
+}

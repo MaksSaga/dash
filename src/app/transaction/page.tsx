@@ -1,5 +1,5 @@
-import { Transaction } from '@/views/transaction'
+import { Transaction as Page } from '@/views/transaction'
 
-export default function TransactionPage() {
-  return <Transaction />
+export default function Transaction() {
+	return <Page />
 }
