@@ -5,6 +5,8 @@
 	--color-secondary: #f4f4f4;
 	--color-secondary-light: #ffffff;
 	--color-secondary-dark: #cccccc;
+
+	--border-radius-default: 20px;
 }
 
 * {

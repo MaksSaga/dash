@@ -4,4 +4,5 @@
 	align-items: center;
 	padding: 15px 30px;
 	background-color: var(--color-secondary-light);
+	border-radius: var(--border-radius-default);
 }

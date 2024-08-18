@@ -8,9 +8,10 @@
 	height: 40px;
 	background-color: var(--color-primary-light);
 	padding-top: 2px;
+	flex-shrink: 0;
 }
 
 .img {
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
