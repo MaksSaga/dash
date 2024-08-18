@@ -1,4 +1,6 @@
 import { ReactNode } from 'react'
+import { AuthenticationHeader } from '@/widgets/authentication/header/ui/authentication-header'
+import style from './layout.module.css'
 
 export default function Layout({
 	children,
@@ -6,8 +8,8 @@ export default function Layout({
 	children: ReactNode
 }>) {
 	return (
-		<div>
-			<h2>Layout</h2>
+		<div className={style.wrapper}>
+			<AuthenticationHeader currentStep={1} maxStep={3} />
 			{children}
 		</div>
 	)

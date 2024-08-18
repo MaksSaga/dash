@@ -1,0 +1,26 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: fit-content;
+	gap: 5px;
+}
+
+.steps {
+	display: flex;
+	gap: 5px;
+}
+
+.step {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
+.completed_step {
+	background-color: var(--color-primary);
+}
+
+.upcoming_step {
+	background-color: var(--color-secondary-dark);
+}

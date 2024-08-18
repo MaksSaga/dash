@@ -11,7 +11,7 @@ interface SmallAvatarProps {
 export const SmallAvatar: FC<SmallAvatarProps> = ({ avatarUrl, className }) => {
 	return (
 		<div className={clsx(style.circle, className)}>
-			<Image className={style.img} src={avatarUrl} alt="user-avatar" />
+			<Image className={style.avatar} src={avatarUrl} alt="user-avatar" />
 		</div>
 	)
 }

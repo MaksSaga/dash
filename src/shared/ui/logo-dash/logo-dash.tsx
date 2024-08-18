@@ -1,12 +1,17 @@
 import type { FC } from 'react'
-import Link from 'next/link'
 import style from './logo-dash.module.css'
+import clsx from 'clsx'
 
-export const LogoDash: FC = () => {
+interface LogoDashProps {
+	size?: 'xs' | 'xl'
+}
+
+export const LogoDash: FC<LogoDashProps> = ({ size }) => {
 	return (
-		<Link className={style.link} href={'/'}>
+		<div className={style.wrapper}>
 			<svg
-				className={style.img}
+				className={clsx(style.logo, size === 'xs' && style.xs_logo, size === 'xl' && style.xl_logo)}
+				viewBox="0 0 24 26"
 				width="24"
 				height="26"
 				fill="none"
@@ -19,7 +24,15 @@ export const LogoDash: FC = () => {
 					fill="#282828"
 				/>
 			</svg>
-			<h2 className={style.title}>Dash</h2>
-		</Link>
+			<h2
+				className={clsx(
+					style.title,
+					size === 'xs' && style.xs_title,
+					size === 'xl' && style.xl_title
+				)}
+			>
+				Dash
+			</h2>
+		</div>
 	)
 }

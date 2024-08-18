@@ -1,0 +1,30 @@
+.block {
+	background-color: var(--color-secondary-light);
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: var(--padding-default);
+	padding-bottom: 0;
+	border-radius: var(--border-radius-default);
+	align-items: center;
+}
+
+.username {
+	align-self: start;
+	font-size: 22px;
+	font-weight: 600;
+	color: var(--color-primary);
+}
+
+.balance {
+	font-size: 42px;
+	font-weight: 600;
+	color: var(--color-primary);
+}
+
+.avatar {
+	width: 100%;
+	height: auto;
+	max-width: 270px;
+	min-width: 160px;
+}
