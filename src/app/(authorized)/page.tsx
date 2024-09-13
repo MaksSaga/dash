@@ -1,5 +1,5 @@
-import { Dashboard as Page } from '@/views/dashboard/ui/dashboard'
+import AdminApp from '@/widgets/admin/AdminApp'
 
 export default function Dashboard() {
-	return <Page />
+	return <AdminApp />
 }
