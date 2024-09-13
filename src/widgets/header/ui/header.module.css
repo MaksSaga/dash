@@ -5,4 +5,10 @@
 	padding: 15px 30px;
 	background-color: var(--color-secondary-light);
 	border-radius: var(--border-radius-default);
+	position: relative;
+}
+
+.header__right {
+	display: flex;
+	align-items: center;
 }

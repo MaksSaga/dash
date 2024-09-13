@@ -1,8 +1,11 @@
 import type { FC } from 'react'
 import Image from '@/shared/utils/image'
 import style from './user-card.module.css'
+
+// face data
 import avatar from '@/shared/img/other/avatars/male/1.png'
 
+// TODO: "3" Why I dont use UserCardProps
 interface UserCardProps {
 	username: string
 	balance: number

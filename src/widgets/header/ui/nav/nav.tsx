@@ -4,7 +4,7 @@ import style from './nav.module.css'
 
 export const Nav: FC = () => {
 	return (
-		<nav>
+		<nav className={style.nav}>
 			<ul className={style.list}>
 				<li className={style.list__item}>
 					<Link className={style.list__link} href="/">

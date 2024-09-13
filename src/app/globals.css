@@ -8,12 +8,17 @@
 
 	--border-radius-default: 20px;
 	--padding-default: 20px;
+
+	/*--screen-width-lg: 1024px;*/
+	/*--screen-width-sm: 640px;*/
+	/*--screen-width-md: 768px;*/
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: var(--font-montserrat-alternates), sans-serif;
 }
 
 body {

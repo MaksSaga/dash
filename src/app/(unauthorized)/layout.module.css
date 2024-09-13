@@ -1,8 +1,8 @@
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	gap: 5px;
+	gap: 10px;
 	align-items: center;
 	justify-content: center;
-	margin-top: 200px;
+	margin-top: 100px;
 }

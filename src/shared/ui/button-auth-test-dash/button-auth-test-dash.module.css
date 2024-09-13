@@ -1,0 +1,28 @@
+.button {
+	display: flex;
+	gap: 15px;
+	padding: 12px 15px;
+	border-radius: 10px;
+	background-color: var(--color-secondary);
+	width: 100%;
+	align-items: center;
+	border: none;
+	cursor: pointer;
+	transition: 0.1s ease-out;
+}
+
+.button:hover {
+	background-color: var(--color-secondary-dark);
+}
+
+.icon {
+	width: 17px;
+	height: auto;
+	fill: var(--color-primary);
+}
+
+.title {
+	font-size: 13px;
+	font-weight: 400;
+	color: var(--color-primary);
+}

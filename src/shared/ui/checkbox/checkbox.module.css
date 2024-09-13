@@ -1,0 +1,60 @@
+.wrapper {
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+
+.checkbox {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.checkbox + .label {
+	display: inline-flex;
+	align-items: center;
+	user-select: none;
+}
+
+.checkbox + .label::before {
+	content: '';
+	cursor: pointer;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	flex-shrink: 0;
+	flex-grow: 0;
+	border-radius: 8px;
+	margin-right: 8px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50% 50%;
+	background-color: var(--color-secondary);
+}
+
+.checkbox:focus-visible + .label::before {
+	box-shadow: 0 0 0 2px var(--color-primary);
+}
+
+.checkbox:checked + .label::before {
+	background-color: var(--color-primary);
+	background-image: url("data:image/svg+xml,%3Csvg width='15' height='10' viewBox='0 0 15 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 5L5.24264 9.24264L13.727 0.757324' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.checkbox:checked:focus-visible + .label::before {
+	box-shadow: none;
+}
+
+.checkbox:disabled + .label::before {
+	opacity: 0.6;
+	background-color: var(--color-secondary-dark);
+	user-select: none;
+	pointer-events: none;
+	cursor: none;
+}
+
+.checkbox:disabled ~ .children {
+	opacity: 0.6;
+	user-select: none;
+	pointer-events: none;
+}

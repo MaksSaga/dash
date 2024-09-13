@@ -1,5 +1,6 @@
 import type { FC } from 'react'
-import Image, { StaticImageData } from 'next/image'
+import { StaticImageData } from 'next/image'
+import Image from '@/shared/utils/image'
 import clsx from 'clsx'
 import style from './small-avatar.module.css'
 
